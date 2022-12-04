@@ -3,4 +3,4 @@ let me to tech you!
 you can save your passwords here, and it is safe.
 it don't upload datas to the sever.
 not happy?
-go to 
+go to https://github.com/justmore5mins/password-library-OSX-/issues/new to make a issue
