@@ -1,0 +1,3 @@
+class usetimes:
+    def onetimeuse():
+        
