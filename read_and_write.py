@@ -1,6 +1,7 @@
 import csv
 
 file = open("datas/passwords","a+")
+
 class reader:
     def readone(website:str):
         """
