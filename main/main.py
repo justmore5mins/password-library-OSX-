@@ -1,4 +1,4 @@
-from public import useroperate
+from public.read_and_write import reader
 from os.path import isdir
 from os import mkdir
 
@@ -6,8 +6,8 @@ a = 0
 
 if isdir("datas/checkfile.checkfile") == False:
     mkdir("datas")
-    open("checkfile.checkfile","x").close
-    open("passwords.csv","x").close
+    open("datas/checkfile.checkfile","x").close
+    open("datas/passwords.csv","x").close
     for i in open("public.intro.txt").readlines():
         print(i)
     while a <= 100:
@@ -30,3 +30,8 @@ if mode == True:
         sinorall = True
     elif sinorall == "all":
         sinorall = False
+    if sinorall == True:
+        print(reader.readone(input("what website's password do you want to get?  ")))
+    elif sinorall == False:
+        for i in reader.readall():
+            print(i)
