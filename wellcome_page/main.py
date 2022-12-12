@@ -1,2 +1,0 @@
-import usercheck as uc
-

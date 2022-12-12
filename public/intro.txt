@@ -1,0 +1,7 @@
+it is a password library
+now it can memory a user's password
+muti user edition will apper later
+it will log in by touch id
+all passwords are encoded
+it is safe
+enjoy it
